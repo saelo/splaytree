@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <link href="style.css" rel="stylesheet" />
+    <script src="deps/jquery.min.js"></script>
+    <script src="deps/cytoscape.min.js"></script>
+    <script src="cytoscape-tree.js"></script>
+    <script src="style.js"></script>
+    <script src="algorithms.js"></script>
+    <script src="animate.js"></script>
+
+    <!-- Visualizations -->
+    <script src="visualizations/rotate.js"></script>
+    <script src="visualizations/move-to-root.js"></script>
+    <script src="visualizations/move-to-root2.js"></script>
+    <script src="visualizations/zig-zig.js"></script>
+    <script src="visualizations/move-to-root-zig-zig.js"></script>
+    <script src="visualizations/zig-zag.js"></script>
+    <script src="visualizations/splay-linear.js"></script>
+    <script src="visualizations/splay-zigzag.js"></script>
+
+    <title>Splay Tree Visualizations</title>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li><a onclick="StartRotateAnimation()" href="#">Rotation</a></li>
+        <li><a onclick="StartMoveToRootAnimation()" href="#">Move To Root</a></li>
+        <li><a onclick="StartMoveToRoot2Animation()" href="#">Move To Root 2</a></li>
+        <li><a onclick="StartZigZigAnimation()" href="#">Zig-Zig</a></li>
+        <li><a onclick="StartMoveToRootZigZigAnimation()" href="#">M2R Zig-Zig</a></li>
+        <li><a onclick="StartZigZagAnimation()" href="#">Zig-Zag</a></li>
+        <li><a onclick="StartSplayLinearAnimation()" href="#">Splay Linear Tree</a></li>
+        <li><a onclick="StartSplayZigZagAnimation()" href="#">Splay ZigZag Tree</a></li>
+      </ul>
+    </div>
+    <div id="cy"></div>
+  </body>
+</html>

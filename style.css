@@ -1,0 +1,25 @@
+body {
+  font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+#nav {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  float: left;
+  left: 0;
+  top: 0;
+  background: #9c9;
+}
+
+#cy {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: 20%;
+  top: 0;
+}
+
+a {
+  font-size: 15pt;
+}
